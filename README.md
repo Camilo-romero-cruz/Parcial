@@ -81,5 +81,5 @@ public/
 * **Hans Stein Dussich Saza**
 * **César Camilo Romero Cruz**
 
-Parcial de Aplicaciones Híbridas - Jueves
+Parcial de Aplicaciones Híbridas - Viernes
 
