@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📌 Parcial Next.js - Aplicaciones Híbridas
 
-## Getting Started
+Este proyecto es el desarrollo del parcial utilizando **Next.js** y **TailwindCSS**, cumpliendo con los requisitos de tener **3 módulos relacionados**, navegación entre páginas y uso de componentes.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun run dev
+## 🚀 Tecnologías usadas
+- [Next.js 13+](https://nextjs.org/) (App Router)
+- [React](https://react.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+
+---
+
+## 📂 Estructura del proyecto
+
+```
+app/
+├─ page.tsx               → Página principal (Home)
+├─ formulario/page.tsx    → Módulo 1: Formulario
+├─ Contador/page.tsx       → Módulo 2: Contador de clics
+├─ texto/page.tsx       → Módulo 3: Texto dinámico
+components/
+├─ Navbar.tsx             → Barra de navegación
+public/
+└─ ...                    → Archivos públicos
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧩 Descripción de los módulos
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Formulario**  
+   - Contiene 3 campos (`nombre`, `email`, `mensaje`).  
+   - Los datos se capturan con `useState`.  
+   - Al enviar, se muestran en un `alert`.
 
-## Learn More
+2. **Contador**  
+   - Un botón que aumenta el número de clics.  
+   - Ejemplo sencillo de manejo de estado.
 
-To learn more about Next.js, take a look at the following resources:
+3. **Texto dinámico**  
+   - Muestra un mensaje inicial.  
+   - Al presionar un botón, el texto cambia.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🎨 Características de diseño
 
-## Deploy on Vercel
+- Estilos implementados con **TailwindCSS**.  
+- Diseño **responsive** (se adapta a pantallas grandes y móviles).  
+- Cohesión de colores con tonos **indigo** y **gris**.  
+- Componentes reutilizables como `Navbar`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## ▶️ Ejecución del proyecto
+
+1. Clonar el repositorio:
+   ```bash
+   git clone <url-del-repo>
+   cd my-parcial
+   ```
+
+2. Instalar dependencias:
+   ```bash
+   npm install
+   ```
+
+3. Ejecutar en modo desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+4. Abrir en el navegador:
+   👉 [http://localhost:3000](http://localhost:3000)
+
+---
+
+## ✨ Autores
+
+* **Hans Stein Dussich Saza**
+* **César Camilo Romero Cruz**
+
+Parcial de Aplicaciones Híbridas - Jueves
+
